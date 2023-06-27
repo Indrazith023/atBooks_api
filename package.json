@@ -1,0 +1,23 @@
+{
+  "name": "at_new_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --config=playwright.config.ts --project=Chromium"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jenkins": "^1.0.1",
+    "mysql": "^2.18.1",
+    "playwright": "^1.32.2",
+    "sql": "^0.78.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.32.2",
+    "@types/mysql": "^2.15.21"
+  }
+}
