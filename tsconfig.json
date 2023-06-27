@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "baseUrl": ".",
+        "paths": {
+                "@Commonservice/*" : ["tests/commonService/*"],
+                "@dataProvider/*" : ["tests/dataProvider/*"],
+                "@POM/*" : ["tests/POM/*"],
+        }
+    }
+}

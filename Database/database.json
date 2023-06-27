@@ -1,0 +1,22 @@
+{
+    "config": {
+        "host": "139.59.78.95",
+        "user": "atadmin",
+        "password": "aaludra#2020",
+        "port": 3306,
+        "database": "atbooks_qa"
+    },
+    "UserTable": "tbl_bs_tenantuser",
+    "BranchTable": "tbl_bs_tenantbranch",
+    "EmpoyeeTable": "tbl_bs_employee",
+    "ContactTable": "tbl_bs_contacts",
+    "ProductTable": "tbl_ec_products",
+    "ProductUOMTable": "tbl_ec_productuoms",
+    "LookupTable": "tbl_bs_lookup",
+    "StatuTable": "tbl_bs_statuses",
+    "EnquirydtlTable": "tbl_sl_enquirydtl",
+    "TaxTable": "tbl_ac_taxes",
+    "SettingvaluesTable": "tbl_bs_setting_values",
+    "ContactAddressTable": "tbl_bs_contact_addresses",
+    "QuotationdtlTable": "tbl_sl_estimatedtl"
+}
