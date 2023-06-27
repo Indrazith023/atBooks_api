@@ -2,7 +2,6 @@ import { request } from "playwright";
 import { reqBody } from "@dataProvider/requestData";
 import { expect } from "@playwright/test";
 import { writeJsonFile } from "@Commonservice/readwriteJson";
-import fs from "fs";
 
 class Login {
   key: string;
